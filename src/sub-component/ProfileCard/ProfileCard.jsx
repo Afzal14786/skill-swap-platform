@@ -10,6 +10,7 @@ const ProfileCard = ({ profile }) => {
     rating,
     avatarFallbackText,
   } = profile;
+  
   return (
     <>
       <div className="bg-gray-800 text-white rounded-lg shadow-lg p-6 flex items-center justify-between mb-6 card-profile">
@@ -32,7 +33,7 @@ const ProfileCard = ({ profile }) => {
           <div>
             <h3 className="text-2xl font-bold mb-2">{name}</h3>
             {/* Skills Offered */}
-            <div className="mb-2 ml-2">
+            <div className="mb-2">
               <span className="text-green-400 font-semibold">
                 Skills Offered :{" "}
               </span>

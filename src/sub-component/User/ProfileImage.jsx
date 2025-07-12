@@ -1,5 +1,4 @@
 import { Avatar } from "@/components/ui/avatar"
-import './UserProfile.css' // Correctly imports the CSS file
 import { useNavigate } from "react-router-dom";
 
 
@@ -14,7 +13,6 @@ const ProfileImage = () => {
             <img src="/media/images/avatar.jpeg" alt="profile image" />
           </div>
         </Avatar>
-        <Avatar></Avatar>
     </>
   );
 }

@@ -1,40 +1,92 @@
 // components/UserProfile.tsx
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"; // Assuming shadcn/ui Avatar
+import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 
-const UserProfile = () => {
-  const user = {
-    name: "Jane Doe",
-    email: "jane.doe@example.com",
-    location: "San Francisco, CA",
-    avatar:
-      "https://i.pravatar.cc/150?img=47", // Random avatar
-    bio: "Frontend developer passionate about UI/UX and open source.",
-    skills : ["C++", "JS", "ReactJS", "NextJS", "MERN"],
-  };
-
+const UserProfile = ({ profile }) => {
+  const {
+    name,
+    profilePhotoUrl,
+    skillsOffered,
+    skillsWanted,
+    rating,
+    avatarFallbackText,
+  } = profile;
+  const navigate = useNavigate();
+  const handleUpdate = () => {
+    navigate('/update-profile');
+  }
   return (
-    <div className="max-w-3xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
-      <div className="flex flex-col items-center md:flex-row md:items-start md:space-x-6">
-        {/* Avatar */}
-        <img
-          src={user.avatar}
-          alt="User avatar"
-          className="w-32 h-32 rounded-full border object-cover"
-        />
+    <>
+      <div className="flex flex-row justify-between max-w-60% max-h-100vh mt-10 text-black p-5 rounded-lg">
+        <div className="flex md:flex-row md:items-start md:space-x-6">
+          <div className="flex flex-col">
+            <div className="md:ml-30 font-semibold leading-10">
+              <p>{name}</p>
+              <p>{`Navi Mumbai Maharashtra 400709 India`}</p>
 
-        {/* Info */}
-        <div className="mt-4 md:mt-0 text-center md:text-left">
-          <h2 className="text-2xl font-bold text-gray-800">{user.name}</h2>
-          <p className="text-gray-600">{user.email}</p>
-          <p className="text-gray-600">{user.location}</p>
+              {/* skill offered */}
+              <div>
+                <span className="text-green-400 font-semibold">
+                  Skills Offered :{" "}
+                </span>
+                <div className="inline-flex flex-wrap gap-3">
+                  {" "}
+                  {/* Use inline-flex to keep it on the same line as "Skills Offered :" */}
+                  {skillsOffered.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="bg-green-700 text-green-100 text-xs font-semibold px-2.5 py-0.5 rounded-full"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
 
-          <p className="mt-4 text-gray-700">{user.bio}</p>
+              <p>Availability : {`Weekend`}</p>
 
-          <button className="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition">
-            Edit Profile
-          </button>
+              <p>Profile : {`Public`}</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col mx-30">
+          <div className="self-center mb-10">
+            <Avatar className="w-35 h-35 flex-shrink-0 mr-6">
+              {/* Fixed size for avatar */}
+              <AvatarImage
+                src={profilePhotoUrl}
+                alt={`${name} Profile`}
+                className="object-cover rounded-full"
+              />
+              <AvatarFallback className="bg-gray-600 text-gray-200 flex items-center justify-center text-xl font-semibold">
+                {avatarFallbackText}
+              </AvatarFallback>
+            </Avatar>
+          </div>
+          <div>
+            <span className="text-blue-400 font-semibold">Skills Wanted : </span>
+            <div className="inline-flex flex-wrap gap-2">
+              {skillsWanted.map((skill, index) => (
+                <span
+                  key={index}
+                  className="inline-block bg-blue-700 text-blue-100 text-xs font-semibold px-2.5 py-0.5 rounded-full mr-2"
+                >
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
+      <div className="mt-10 text-end mx-50">
+          <Button type="submit" className="w-30px" onClick={handleUpdate}>
+              Update Profile
+          </Button>
+      </div>
+    </>
   );
 };
 

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X } from "lucide-react"; // for icons
-
+import ProfileImage from "./sub-component/User/ProfileImage";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,6 +12,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   const isLoginPage = location.pathname === '/login';
+  // const isProfilePage = location.pathname === '/profile';
 
   return (
     <nav className="bg-white border-b border-gray-200 shadow-sm sticky top-0 z-50 w-full">
@@ -29,6 +30,7 @@ const Navbar = () => {
                 <div className="flex items-center space-x-4">
                   <Link to={'/'}>Home</Link>
                   {/* After login we can see the profile image */}
+                  <Link to={'/profile'}><ProfileImage/></Link>
                 </div>
               ) : 
               (
@@ -38,7 +40,6 @@ const Navbar = () => {
                 </div>
               )
             }
-
           </div>
 
           {/* Mobile menu button */}
