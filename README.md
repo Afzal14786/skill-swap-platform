@@ -1,12 +1,25 @@
-# React + Vite
+# Skill Swap Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Develop a Skill Swap Platform — a mini application that enables users to list their skills and
+request others in return  
 
-Currently, two official plugins are available:
+**Features**  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Basic Info : Name, Location (optional), profile photo (optional)
+* List of skill offered
+* List of skill wanted
+* Availability (e.g., weekends, evenings)
+* User can make their profile public or private.
+* Users can browse or search others by skill (e.g., “Photoshop” or “Excel”)
+* Request & Accept Swaps:  
+        ○ Accept or reject swap offers
+        ○ Show current and pending swap requests  
+* Ratings or feedback after a swap
+* The user is also able to delete the swap request if it is not accepted.  
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Admin Role  
+**● Reject inappropriate or spammy skill descriptions.**   
+**● Ban users who violate platform policies.**  
+**● Monitor pending, accepted, or cancelled swaps.**  
+**● Send platform-wide messages (e.g., feature updates, downtime alerts).**  
+**● Download reports of user activity, feedback logs, and swap stats.**

@@ -1,0 +1,14 @@
+.card-profile {
+    /* Add these transition properties to the base class for smooth hover effects */
+  transition-property: all !important; /* or specifically 'box-shadow, transform' */
+  transition-duration: 300ms !important; /* Matches Tailwind's duration-300 */
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important; /* Matches Tailwind's ease-in-out */
+  cursor: pointer !important; /* To indicate interactivity */
+}
+
+.card-profile:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+
+  /* Equivalent to Tailwind's hover:scale-[1.01] */
+    transform: scale(1.01) !important;
+}

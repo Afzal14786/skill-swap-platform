@@ -2,16 +2,22 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/HomePage/HomePage'
-import Header from './Header'
+import LoginPage from './pages/LoginPage/LoginPage'
+import RegisterPage from './pages/LoginPage/RegisterPage'
+import Navbar from './Navbar'
 import Footer from './Footer'
+
 function App() {
 
   return (
     <>
       <Router>
-        <Header/>
+        <Navbar/>
         <Routes>
-          <Route element={<Home/>} path='/'/>
+          {/* home page route */}
+          <Route element={<Home/>} path='/'/> 
+          <Route element= {<LoginPage/>} path='/login'/>
+          <Route element= {<RegisterPage/>} path='/register'/>
         </Routes>
         <Footer/>
       </Router>
@@ -20,3 +26,4 @@ function App() {
 }
 
 export default App
+
