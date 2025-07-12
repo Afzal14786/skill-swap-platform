@@ -11,4 +11,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: true,            // Makes Vite listen on all addresses (0.0.0.0)
+    port: 5173,            // Optional: You can customize the port
+  },
 })
