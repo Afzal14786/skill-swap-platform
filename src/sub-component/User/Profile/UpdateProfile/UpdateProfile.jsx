@@ -65,6 +65,10 @@ const UpdateProfile = ({ profile }) => {
     navigate("/");
   };
 
+  const handleDiscard = ()=> {
+    navigate('/profile');
+  }
+
   return (
     <div className="relative">
       {/* Avatar at top-right with hover icons */}
@@ -199,9 +203,13 @@ const UpdateProfile = ({ profile }) => {
             <span className="font-medium">Profile : Public</span>
             <Switch checked={isPublic} onCheckedChange={setIsPublic} />
           </div>
-          <div className="w-50%">
+          <div className="w-50% flex justify-between">
             <Button className="bg-green-800 mt-4" onClick={handleSave}>
               Save Profile
+            </Button>
+
+            <Button className="bg-red-800 mt-4" onClick={handleDiscard}>
+              Discard
             </Button>
           </div>
         </div>

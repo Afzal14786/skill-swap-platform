@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -9,20 +10,51 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Link } from "react-router-dom";
+import { Eye, EyeOff } from "lucide-react";
+
+// Function to calculate password strength
+const getPasswordStrength = (password) => {
+  let score = 0;
+  if (password.length >= 8) score++;
+  if (/[A-Z]/.test(password)) score++;
+  if (/\d/.test(password)) score++;
+  if (/[^A-Za-z0-9]/.test(password)) score++;
+
+  switch (score) {
+    case 0:
+    case 1:
+      return { label: "Weak", color: "bg-red-500" };
+    case 2:
+      return { label: "Moderate", color: "bg-yellow-500" };
+    case 3:
+    case 4:
+      return { label: "Strong", color: "bg-green-600" };
+    default:
+      return { label: "Weak", color: "bg-gray-400" };
+  }
+};
 
 const RegisterForm = () => {
+  const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [password, setPassword] = useState("");
+
+  const passwordStrength = getPasswordStrength(password);
+
   return (
-    <div className={"flex flex-col gap-6"}>
-      <Card>
+    <div className="flex justify-center items-center min-h-screen px-4 sm:px-6">
+      <Card className="w-full max-w-md shadow-lg">
         <CardHeader>
-          <CardTitle>Register</CardTitle>
-          <CardDescription>
-            Enter your email below to register . 
+          <CardTitle className="text-2xl sm:text-3xl">Register</CardTitle>
+          <CardDescription className="text-sm sm:text-base">
+            Enter your email below to register.
           </CardDescription>
         </CardHeader>
+
         <CardContent>
           <form>
             <div className="flex flex-col gap-6">
+              {/* Email */}
               <div className="grid gap-3">
                 <Label htmlFor="email">Email</Label>
                 <Input
@@ -32,21 +64,75 @@ const RegisterForm = () => {
                   required
                 />
               </div>
-              <div className="grid gap-3">
-                <div className="flex items-center">
-                  <Label htmlFor="password">Password</Label>
+
+              {/* Password */}
+              <div className="grid gap-2 relative">
+                <Label htmlFor="password">Password</Label>
+                <div className="relative">
+                  <Input
+                    id="password"
+                    type={showPassword ? "text" : "password"}
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    required
+                    className="pr-10"
+                  />
+                  <button
+                    type="button"
+                    className="absolute top-2.5 right-3 text-gray-500 hover:text-gray-700"
+                    onClick={() => setShowPassword(!showPassword)}
+                    tabIndex={-1}
+                  >
+                    {showPassword ? (
+                      <EyeOff className="w-5 h-5" />
+                    ) : (
+                      <Eye className="w-5 h-5" />
+                    )}
+                  </button>
                 </div>
-                <Input id="password" type="password" required />
+
+                {/* Strength Bar */}
+                {password && (
+                  <div className="mt-1">
+                    <div className="h-2 w-full bg-gray-200 rounded-full">
+                      <div
+                        className={`h-2 rounded-full ${passwordStrength.color}`}
+                        style={{ width: `${(getPasswordStrength(password).label === "Weak" ? 33 : getPasswordStrength(password).label === "Moderate" ? 66 : 100)}%` }}
+                      ></div>
+                    </div>
+                    <p className="text-xs mt-1 text-gray-600">
+                      Strength: <span className="font-semibold">{passwordStrength.label}</span>
+                    </p>
+                  </div>
+                )}
               </div>
 
-              <div className="grid gap-3">
-                <div className="flex items-center">
-                  <Label htmlFor="password">Password Again</Label>
+              {/* Confirm Password */}
+              <div className="grid gap-3 relative">
+                <Label htmlFor="confirmPassword">Password Again</Label>
+                <div className="relative">
+                  <Input
+                    id="confirmPassword"
+                    type={showConfirmPassword ? "text" : "password"}
+                    required
+                    className="pr-10"
+                  />
+                  <button
+                    type="button"
+                    className="absolute top-2.5 right-3 text-gray-500 hover:text-gray-700"
+                    onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                    tabIndex={-1}
+                  >
+                    {showConfirmPassword ? (
+                      <EyeOff className="w-5 h-5" />
+                    ) : (
+                      <Eye className="w-5 h-5" />
+                    )}
+                  </button>
                 </div>
-                <Input id="password" type="password" required />
               </div>
 
-                {/* register button */}
+              {/* Submit Button */}
               <div className="flex flex-col gap-3">
                 <Button type="submit" className="w-full">
                   Register
@@ -54,18 +140,15 @@ const RegisterForm = () => {
               </div>
             </div>
 
-            <div className="mt-4 text-center text-sm">
-              {/* First line: "Don't have an account? Sign Up" */}
-
-              {/* Second line: "Forgot your password?" with margin on its container */}
+            {/* Already have account */}
+            <div className="mt-6 text-center text-sm">
               <p>
-                {" "}
-                {/* Apply mt-4 to this <p> tag */}
+                Already have an account?{" "}
                 <Link
-                  to={"/login"}
-                  className="underline underline-offset-4"
+                  to="/login"
+                  className="text-blue-500 hover:underline underline-offset-4"
                 >
-                  Already have an account?
+                  Login
                 </Link>
               </p>
             </div>
@@ -74,6 +157,6 @@ const RegisterForm = () => {
       </Card>
     </div>
   );
-}
+};
 
 export default RegisterForm;

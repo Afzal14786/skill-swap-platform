@@ -1,5 +1,5 @@
-// import React from "react";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"; // Assuming shadcn/ui Avatar
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Link } from "react-router-dom";
 
 const ProfileCard = ({ profile }) => {
   const {
@@ -10,36 +10,36 @@ const ProfileCard = ({ profile }) => {
     rating,
     avatarFallbackText,
   } = profile;
-  
-  return (
-    <>
-      <div className="bg-gray-800 text-white rounded-lg shadow-lg p-6 flex items-center justify-between mb-6 card-profile">
-        {/* Added mb-6 for vertical spacing between cards */}
-        <div className="flex items-center">
-          {/* Profile Photo / Avatar */}
-          <Avatar className="w-24 h-24 flex-shrink-0 mr-6">
-            {/* Fixed size for avatar */}
-            <AvatarImage
-              src={profilePhotoUrl}
-              alt={`${name} Profile`}
-              className="object-cover rounded-full"
-            />
-            <AvatarFallback className="bg-gray-600 text-gray-200 flex items-center justify-center text-xl font-semibold">
-              {avatarFallbackText}
-            </AvatarFallback>
-          </Avatar>
 
-          {/* Profile Details */}
-          <div>
+  return (
+    <div className="bg-gray-800 text-white rounded-lg shadow-lg p-6 mb-6 card-profile">
+      <div className="flex flex-col lg:flex-row items-start justify-between gap-6">
+        {/* Left Section - Avatar and Info */}
+        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 flex-1">
+          {/* Avatar */}
+          <Link to={`/user/${profile.id}`}>
+            <Avatar className="w-24 h-24 flex-shrink-0">
+              <AvatarImage
+                src={profilePhotoUrl}
+                alt={`${name} Profile`}
+                className="object-cover rounded-full"
+              />
+              <AvatarFallback className="bg-gray-600 text-gray-200 flex items-center justify-center text-xl font-semibold">
+                {avatarFallbackText}
+              </AvatarFallback>
+            </Avatar>
+          </Link>
+
+          {/* Details */}
+          <div className="text-center sm:text-left">
             <h3 className="text-2xl font-bold mb-2">{name}</h3>
+
             {/* Skills Offered */}
             <div className="mb-2">
               <span className="text-green-400 font-semibold">
-                Skills Offered :{" "}
+                Skills Offered:
               </span>
-              <div className="inline-flex flex-wrap gap-2">
-                {" "}
-                {/* Use inline-flex to keep it on the same line as "Skills Offered :" */}
+              <div className="inline-flex flex-wrap gap-2 mt-1 justify-center sm:justify-start">
                 {skillsOffered.map((skill, index) => (
                   <span
                     key={index}
@@ -51,16 +51,16 @@ const ProfileCard = ({ profile }) => {
               </div>
             </div>
 
-            {/* skill wanted */}
+            {/* Skills Wanted */}
             <div>
               <span className="text-blue-400 font-semibold">
-                Skills Wanted :{" "}
+                Skills Wanted:
               </span>
-              <div className="inline-flex flex-wrap gap-2">
+              <div className="inline-flex flex-wrap gap-2 mt-1 justify-center sm:justify-start">
                 {skillsWanted.map((skill, index) => (
                   <span
                     key={index}
-                    className="inline-block bg-blue-700 text-blue-100 text-xs font-semibold px-2.5 py-0.5 rounded-full mr-2"
+                    className="bg-blue-700 text-blue-100 text-xs font-semibold px-2.5 py-0.5 rounded-full"
                   >
                     {skill}
                   </span>
@@ -69,17 +69,18 @@ const ProfileCard = ({ profile }) => {
             </div>
           </div>
         </div>
-        {/* Request Button and Rating */}
-        <div className="flex flex-col items-end justify-between h-full">
-          <button className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 shadow-md">
+
+        {/* Right Section - Request Button & Rating */}
+        <div className="flex flex-col items-center lg:items-end gap-3 w-full lg:w-auto">
+          <button className="bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded-md transition duration-300 shadow-md w-full sm:w-auto">
             Request
           </button>
-          <div className="text-sm mt-4">
-            rating: <span className="font-semibold">{rating}</span>
+          <div className="text-sm text-center lg:text-right">
+            Rating: <span className="font-semibold">{rating}</span>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
