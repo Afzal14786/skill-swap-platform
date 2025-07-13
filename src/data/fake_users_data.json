@@ -1,0 +1,2252 @@
+[
+  {
+    "id": "1",
+    "name": "Taylor Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=TJ",
+    "avatarFallbackText": "TJ",
+    "skillsOffered": [
+      "Curriculum Development",
+      "Teaching"
+    ],
+    "skillsWanted": [
+      "Video Creation",
+      "Instructional Design"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "2",
+    "name": "Avery Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=AW",
+    "avatarFallbackText": "AW",
+    "skillsOffered": [
+      "Figma",
+      "Illustrator"
+    ],
+    "skillsWanted": [
+      "Animation",
+      "Web Design"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "3",
+    "name": "Avery Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=AC",
+    "avatarFallbackText": "AC",
+    "skillsOffered": [
+      "Pediatrics",
+      "Diagnosis"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Medical AI"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "4",
+    "name": "Drew Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=DM",
+    "avatarFallbackText": "DM",
+    "skillsOffered": [
+      "Online Tutoring",
+      "Teaching"
+    ],
+    "skillsWanted": [
+      "Instructional Design",
+      "Video Creation"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "5",
+    "name": "Taylor Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=TM",
+    "avatarFallbackText": "TM",
+    "skillsOffered": [
+      "Improvisation",
+      "Theatre"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Editing"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "6",
+    "name": "Drew Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Pediatrics",
+      "Cardiology"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Radiology"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "7",
+    "name": "Taylor Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=TC",
+    "avatarFallbackText": "TC",
+    "skillsOffered": [
+      "Figma",
+      "Photoshop"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Animation"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "8",
+    "name": "Morgan Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=MJ",
+    "avatarFallbackText": "MJ",
+    "skillsOffered": [
+      "Auditing",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "R"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "9",
+    "name": "Cameron Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "Teaching",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Video Creation"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "10",
+    "name": "Jordan Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=JG",
+    "avatarFallbackText": "JG",
+    "skillsOffered": [
+      "AI",
+      "ML"
+    ],
+    "skillsWanted": [
+      "UI/UX",
+      "Figma"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "11",
+    "name": "Drew Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Surgery",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Radiology"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "12",
+    "name": "Cameron Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=CW",
+    "avatarFallbackText": "CW",
+    "skillsOffered": [
+      "Voice Acting",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "13",
+    "name": "Jordan Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=JM",
+    "avatarFallbackText": "JM",
+    "skillsOffered": [
+      "Budgeting",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "R",
+      "Power BI"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "14",
+    "name": "Riley Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=RD",
+    "avatarFallbackText": "RD",
+    "skillsOffered": [
+      "Theatre",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Editing"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "15",
+    "name": "Cameron Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "React",
+      "Python"
+    ],
+    "skillsWanted": [
+      "System Design",
+      "Docker"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "16",
+    "name": "Cameron Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "Curriculum Development",
+      "Teaching"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Video Creation"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "17",
+    "name": "Casey Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=CG",
+    "avatarFallbackText": "CG",
+    "skillsOffered": [
+      "Online Tutoring",
+      "Curriculum Development"
+    ],
+    "skillsWanted": [
+      "Video Creation",
+      "Instructional Design"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "18",
+    "name": "Jamie Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=JW",
+    "avatarFallbackText": "JW",
+    "skillsOffered": [
+      "Illustrator",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Animation",
+      "3D Modeling"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "19",
+    "name": "Drew Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=DJ",
+    "avatarFallbackText": "DJ",
+    "skillsOffered": [
+      "Budgeting",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "Power BI"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "20",
+    "name": "Jordan Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=JJ",
+    "avatarFallbackText": "JJ",
+    "skillsOffered": [
+      "Auditing",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "R",
+      "Python"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "21",
+    "name": "Jordan Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=JS",
+    "avatarFallbackText": "JS",
+    "skillsOffered": [
+      "ML",
+      "AI"
+    ],
+    "skillsWanted": [
+      "Kubernetes",
+      "Docker"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "22",
+    "name": "Jordan Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=JB",
+    "avatarFallbackText": "JB",
+    "skillsOffered": [
+      "UI Design",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Animation",
+      "3D Modeling"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "23",
+    "name": "Morgan Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=MW",
+    "avatarFallbackText": "MW",
+    "skillsOffered": [
+      "Stage Presence",
+      "Theatre"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "24",
+    "name": "Taylor Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=TJ",
+    "avatarFallbackText": "TJ",
+    "skillsOffered": [
+      "Figma",
+      "Photoshop"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Web Design"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "25",
+    "name": "Riley Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=RL",
+    "avatarFallbackText": "RL",
+    "skillsOffered": [
+      "Surgery",
+      "Diagnosis"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Medical AI"
+    ],
+    "rating": "3.9/5"
+  },
+  {
+    "id": "26",
+    "name": "Casey Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "Diagnosis",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Radiology",
+      "Medical Research"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "27",
+    "name": "Taylor Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=TL",
+    "avatarFallbackText": "TL",
+    "skillsOffered": [
+      "Surgery",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Radiology"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "28",
+    "name": "Avery Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Excel Modeling",
+      "Auditing"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "R"
+    ],
+    "rating": "4.3/5"
+  },
+  {
+    "id": "29",
+    "name": "Taylor Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=TB",
+    "avatarFallbackText": "TB",
+    "skillsOffered": [
+      "ML",
+      "React"
+    ],
+    "skillsWanted": [
+      "Docker",
+      "UI/UX"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "30",
+    "name": "Alex Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Voice Acting",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "31",
+    "name": "Morgan Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=MJ",
+    "avatarFallbackText": "MJ",
+    "skillsOffered": [
+      "UI Design",
+      "Illustrator"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Web Design"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "32",
+    "name": "Casey Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=CB",
+    "avatarFallbackText": "CB",
+    "skillsOffered": [
+      "Budgeting",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "Python"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "33",
+    "name": "Alex Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=AG",
+    "avatarFallbackText": "AG",
+    "skillsOffered": [
+      "Taxation",
+      "Auditing"
+    ],
+    "skillsWanted": [
+      "Python",
+      "Data Analysis"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "34",
+    "name": "Jamie Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=JL",
+    "avatarFallbackText": "JL",
+    "skillsOffered": [
+      "Photoshop",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Animation"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "35",
+    "name": "Riley Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=RC",
+    "avatarFallbackText": "RC",
+    "skillsOffered": [
+      "Teaching",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Instructional Design"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "36",
+    "name": "Taylor Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=TW",
+    "avatarFallbackText": "TW",
+    "skillsOffered": [
+      "Voice Acting",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Script Writing"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "37",
+    "name": "Jamie Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=JM",
+    "avatarFallbackText": "JM",
+    "skillsOffered": [
+      "Illustrator",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Animation",
+      "Web Design"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "38",
+    "name": "Cameron Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=CB",
+    "avatarFallbackText": "CB",
+    "skillsOffered": [
+      "Auditing",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "R",
+      "Python"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "39",
+    "name": "Morgan Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=MW",
+    "avatarFallbackText": "MW",
+    "skillsOffered": [
+      "Excel Modeling",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "R"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "40",
+    "name": "Riley Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=RL",
+    "avatarFallbackText": "RL",
+    "skillsOffered": [
+      "Theatre",
+      "Voice Acting"
+    ],
+    "skillsWanted": [
+      "Editing",
+      "Script Writing"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "41",
+    "name": "Drew Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=DC",
+    "avatarFallbackText": "DC",
+    "skillsOffered": [
+      "Java",
+      "C++"
+    ],
+    "skillsWanted": [
+      "Docker",
+      "UI/UX"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "42",
+    "name": "Avery Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=AM",
+    "avatarFallbackText": "AM",
+    "skillsOffered": [
+      "ML",
+      "C++"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "Kubernetes"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "43",
+    "name": "Drew Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Voice Acting",
+      "Theatre"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Script Writing"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "44",
+    "name": "Morgan Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=MG",
+    "avatarFallbackText": "MG",
+    "skillsOffered": [
+      "C++",
+      "AI"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "Kubernetes"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "45",
+    "name": "Drew Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=DS",
+    "avatarFallbackText": "DS",
+    "skillsOffered": [
+      "JavaScript",
+      "ML"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "Docker"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "46",
+    "name": "Morgan Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=MJ",
+    "avatarFallbackText": "MJ",
+    "skillsOffered": [
+      "ML",
+      "React"
+    ],
+    "skillsWanted": [
+      "UI/UX",
+      "Kubernetes"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "47",
+    "name": "Avery Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Budgeting",
+      "Excel Modeling"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "Python"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "48",
+    "name": "Cameron Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "Figma",
+      "UI Design"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Animation"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "49",
+    "name": "Drew Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=DS",
+    "avatarFallbackText": "DS",
+    "skillsOffered": [
+      "Accounting",
+      "Auditing"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "Python"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "50",
+    "name": "Casey Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=CD",
+    "avatarFallbackText": "CD",
+    "skillsOffered": [
+      "Graphic Design",
+      "Photoshop"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "Animation"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "51",
+    "name": "Alex Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=AD",
+    "avatarFallbackText": "AD",
+    "skillsOffered": [
+      "Online Tutoring",
+      "Curriculum Development"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Video Creation"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "52",
+    "name": "Jordan Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=JB",
+    "avatarFallbackText": "JB",
+    "skillsOffered": [
+      "Accounting",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "R"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "53",
+    "name": "Casey Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "AI",
+      "Java"
+    ],
+    "skillsWanted": [
+      "System Design",
+      "Kubernetes"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "54",
+    "name": "Alex Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=AB",
+    "avatarFallbackText": "AB",
+    "skillsOffered": [
+      "AI",
+      "Node.js"
+    ],
+    "skillsWanted": [
+      "UI/UX",
+      "Kubernetes"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "55",
+    "name": "Riley Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=RC",
+    "avatarFallbackText": "RC",
+    "skillsOffered": [
+      "Teaching",
+      "Curriculum Development"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Instructional Design"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "56",
+    "name": "Jamie Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=JD",
+    "avatarFallbackText": "JD",
+    "skillsOffered": [
+      "Teaching",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Instructional Design"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "57",
+    "name": "Avery Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Surgery",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Radiology",
+      "Medical AI"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "58",
+    "name": "Jamie Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=JC",
+    "avatarFallbackText": "JC",
+    "skillsOffered": [
+      "Cardiology",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Radiology"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "59",
+    "name": "Alex Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=AJ",
+    "avatarFallbackText": "AJ",
+    "skillsOffered": [
+      "Graphic Design",
+      "Illustrator"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "Animation"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "60",
+    "name": "Alex Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Curriculum Development",
+      "Teaching"
+    ],
+    "skillsWanted": [
+      "EdTech Tools",
+      "Video Creation"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "61",
+    "name": "Cameron Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=CD",
+    "avatarFallbackText": "CD",
+    "skillsOffered": [
+      "Excel Modeling",
+      "Auditing"
+    ],
+    "skillsWanted": [
+      "R",
+      "Python"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "62",
+    "name": "Cameron Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=CJ",
+    "avatarFallbackText": "CJ",
+    "skillsOffered": [
+      "Graphic Design",
+      "Photoshop"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "Animation"
+    ],
+    "rating": "3.9/5"
+  },
+  {
+    "id": "63",
+    "name": "Riley Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=RC",
+    "avatarFallbackText": "RC",
+    "skillsOffered": [
+      "Taxation",
+      "Excel Modeling"
+    ],
+    "skillsWanted": [
+      "R",
+      "Python"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "64",
+    "name": "Avery Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=AS",
+    "avatarFallbackText": "AS",
+    "skillsOffered": [
+      "Accounting",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "R",
+      "Power BI"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "65",
+    "name": "Alex Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=AW",
+    "avatarFallbackText": "AW",
+    "skillsOffered": [
+      "Auditing",
+      "Budgeting"
+    ],
+    "skillsWanted": [
+      "Python",
+      "Power BI"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "66",
+    "name": "Cameron Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "Voice Acting",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Editing",
+      "Script Writing"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "67",
+    "name": "Cameron Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "Excel Modeling",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "R"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "68",
+    "name": "Riley Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=RW",
+    "avatarFallbackText": "RW",
+    "skillsOffered": [
+      "Surgery",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Radiology"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "69",
+    "name": "Jordan Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=JL",
+    "avatarFallbackText": "JL",
+    "skillsOffered": [
+      "Pediatrics",
+      "Diagnosis"
+    ],
+    "skillsWanted": [
+      "Radiology",
+      "Medical AI"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "70",
+    "name": "Riley Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=RJ",
+    "avatarFallbackText": "RJ",
+    "skillsOffered": [
+      "Budgeting",
+      "Auditing"
+    ],
+    "skillsWanted": [
+      "R",
+      "Data Analysis"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "71",
+    "name": "Taylor Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=TC",
+    "avatarFallbackText": "TC",
+    "skillsOffered": [
+      "ML",
+      "Python"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "Docker"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "72",
+    "name": "Casey Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=CC",
+    "avatarFallbackText": "CC",
+    "skillsOffered": [
+      "Illustrator",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Animation"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "73",
+    "name": "Jordan Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=JM",
+    "avatarFallbackText": "JM",
+    "skillsOffered": [
+      "Online Tutoring",
+      "Teaching"
+    ],
+    "skillsWanted": [
+      "Video Creation",
+      "Instructional Design"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "74",
+    "name": "Avery Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=AJ",
+    "avatarFallbackText": "AJ",
+    "skillsOffered": [
+      "Pediatrics",
+      "Cardiology"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Radiology"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "75",
+    "name": "Riley Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=RJ",
+    "avatarFallbackText": "RJ",
+    "skillsOffered": [
+      "Theatre",
+      "Voice Acting"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.3/5"
+  },
+  {
+    "id": "76",
+    "name": "Alex Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=AJ",
+    "avatarFallbackText": "AJ",
+    "skillsOffered": [
+      "ML",
+      "Python"
+    ],
+    "skillsWanted": [
+      "UI/UX",
+      "Figma"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "77",
+    "name": "Morgan Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=MJ",
+    "avatarFallbackText": "MJ",
+    "skillsOffered": [
+      "Taxation",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "Python",
+      "Data Analysis"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "78",
+    "name": "Avery Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Figma",
+      "Graphic Design"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "Animation"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "79",
+    "name": "Cameron Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=CS",
+    "avatarFallbackText": "CS",
+    "skillsOffered": [
+      "C++",
+      "AI"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "Docker"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "80",
+    "name": "Casey Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=CW",
+    "avatarFallbackText": "CW",
+    "skillsOffered": [
+      "Diagnosis",
+      "Cardiology"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Radiology"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "81",
+    "name": "Jordan Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=JM",
+    "avatarFallbackText": "JM",
+    "skillsOffered": [
+      "Java",
+      "React"
+    ],
+    "skillsWanted": [
+      "Kubernetes",
+      "Figma"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "82",
+    "name": "Jordan Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=JC",
+    "avatarFallbackText": "JC",
+    "skillsOffered": [
+      "Theatre",
+      "Voice Acting"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Editing"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "83",
+    "name": "Casey Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "DevOps",
+      "Python"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "Docker"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "84",
+    "name": "Cameron Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=CG",
+    "avatarFallbackText": "CG",
+    "skillsOffered": [
+      "C++",
+      "ML"
+    ],
+    "skillsWanted": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "85",
+    "name": "Alex Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=AC",
+    "avatarFallbackText": "AC",
+    "skillsOffered": [
+      "AI",
+      "DevOps"
+    ],
+    "skillsWanted": [
+      "Figma",
+      "UI/UX"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "86",
+    "name": "Jordan Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=JB",
+    "avatarFallbackText": "JB",
+    "skillsOffered": [
+      "C++",
+      "ML"
+    ],
+    "skillsWanted": [
+      "System Design",
+      "UI/UX"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "87",
+    "name": "Cameron Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=CB",
+    "avatarFallbackText": "CB",
+    "skillsOffered": [
+      "UI Design",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "3D Modeling"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "88",
+    "name": "Avery Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=AS",
+    "avatarFallbackText": "AS",
+    "skillsOffered": [
+      "Illustrator",
+      "Graphic Design"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "3D Modeling"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "89",
+    "name": "Taylor Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=TW",
+    "avatarFallbackText": "TW",
+    "skillsOffered": [
+      "Theatre",
+      "Voice Acting"
+    ],
+    "skillsWanted": [
+      "Editing",
+      "Direction"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "90",
+    "name": "Alex Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=AM",
+    "avatarFallbackText": "AM",
+    "skillsOffered": [
+      "JavaScript",
+      "Python"
+    ],
+    "skillsWanted": [
+      "Docker",
+      "UI/UX"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "91",
+    "name": "Riley Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=RB",
+    "avatarFallbackText": "RB",
+    "skillsOffered": [
+      "Stage Presence",
+      "Voice Acting"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "92",
+    "name": "Drew Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Surgery",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Radiology"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "93",
+    "name": "Jamie Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=JL",
+    "avatarFallbackText": "JL",
+    "skillsOffered": [
+      "Graphic Design",
+      "Photoshop"
+    ],
+    "skillsWanted": [
+      "Animation",
+      "Web Design"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "94",
+    "name": "Casey Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=CB",
+    "avatarFallbackText": "CB",
+    "skillsOffered": [
+      "Online Tutoring",
+      "Curriculum Development"
+    ],
+    "skillsWanted": [
+      "Instructional Design",
+      "EdTech Tools"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "95",
+    "name": "Drew Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Cardiology",
+      "Surgery"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Medical Research"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "96",
+    "name": "Taylor Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=TC",
+    "avatarFallbackText": "TC",
+    "skillsOffered": [
+      "Auditing",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "Power BI",
+      "Data Analysis"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "97",
+    "name": "Drew Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=DD",
+    "avatarFallbackText": "DD",
+    "skillsOffered": [
+      "Budgeting",
+      "Auditing"
+    ],
+    "skillsWanted": [
+      "R",
+      "Power BI"
+    ],
+    "rating": "4.3/5"
+  },
+  {
+    "id": "98",
+    "name": "Taylor Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=TL",
+    "avatarFallbackText": "TL",
+    "skillsOffered": [
+      "Curriculum Development",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "Video Creation",
+      "Instructional Design"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "99",
+    "name": "Cameron Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "Voice Acting",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Editing"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "100",
+    "name": "Jamie Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=JB",
+    "avatarFallbackText": "JB",
+    "skillsOffered": [
+      "Improvisation",
+      "Theatre"
+    ],
+    "skillsWanted": [
+      "Editing",
+      "Script Writing"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "101",
+    "name": "Taylor Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=TB",
+    "avatarFallbackText": "TB",
+    "skillsOffered": [
+      "AI",
+      "ML"
+    ],
+    "skillsWanted": [
+      "System Design",
+      "Kubernetes"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "102",
+    "name": "Taylor Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=TS",
+    "avatarFallbackText": "TS",
+    "skillsOffered": [
+      "UI Design",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "Animation"
+    ],
+    "rating": "3.9/5"
+  },
+  {
+    "id": "103",
+    "name": "Cameron Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "Surgery",
+      "Diagnosis"
+    ],
+    "skillsWanted": [
+      "Radiology",
+      "Medical AI"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "104",
+    "name": "Cameron Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=CJ",
+    "avatarFallbackText": "CJ",
+    "skillsOffered": [
+      "Curriculum Development",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "Instructional Design",
+      "EdTech Tools"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "105",
+    "name": "Morgan Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=MS",
+    "avatarFallbackText": "MS",
+    "skillsOffered": [
+      "AI",
+      "DevOps"
+    ],
+    "skillsWanted": [
+      "UI/UX",
+      "Docker"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "106",
+    "name": "Drew Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Theatre",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "107",
+    "name": "Riley Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=RB",
+    "avatarFallbackText": "RB",
+    "skillsOffered": [
+      "Illustrator",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "3D Modeling"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "108",
+    "name": "Alex Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Voice Acting",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Editing"
+    ],
+    "rating": "3.9/5"
+  },
+  {
+    "id": "109",
+    "name": "Casey Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=CM",
+    "avatarFallbackText": "CM",
+    "skillsOffered": [
+      "Stage Presence",
+      "Theatre"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Editing"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "110",
+    "name": "Cameron Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "Photoshop",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Web Design"
+    ],
+    "rating": "5.0/5"
+  },
+  {
+    "id": "111",
+    "name": "Drew Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=DL",
+    "avatarFallbackText": "DL",
+    "skillsOffered": [
+      "Stage Presence",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "112",
+    "name": "Casey Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=CS",
+    "avatarFallbackText": "CS",
+    "skillsOffered": [
+      "Theatre",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Script Writing"
+    ],
+    "rating": "4.9/5"
+  },
+  {
+    "id": "113",
+    "name": "Cameron Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=CG",
+    "avatarFallbackText": "CG",
+    "skillsOffered": [
+      "Pediatrics",
+      "Surgery"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Medical AI"
+    ],
+    "rating": "3.5/5"
+  },
+  {
+    "id": "114",
+    "name": "Morgan Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=ML",
+    "avatarFallbackText": "ML",
+    "skillsOffered": [
+      "ML",
+      "C++"
+    ],
+    "skillsWanted": [
+      "Kubernetes",
+      "System Design"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "115",
+    "name": "Riley Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=RJ",
+    "avatarFallbackText": "RJ",
+    "skillsOffered": [
+      "Theatre",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Script Writing"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "116",
+    "name": "Jamie Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=JS",
+    "avatarFallbackText": "JS",
+    "skillsOffered": [
+      "Diagnosis",
+      "Surgery"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Medical Research"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "117",
+    "name": "Alex Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=AM",
+    "avatarFallbackText": "AM",
+    "skillsOffered": [
+      "Pediatrics",
+      "Cardiology"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Radiology"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "118",
+    "name": "Cameron Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=CS",
+    "avatarFallbackText": "CS",
+    "skillsOffered": [
+      "React",
+      "Node.js"
+    ],
+    "skillsWanted": [
+      "System Design",
+      "Docker"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "119",
+    "name": "Avery Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=AW",
+    "avatarFallbackText": "AW",
+    "skillsOffered": [
+      "Node.js",
+      "ML"
+    ],
+    "skillsWanted": [
+      "UI/UX",
+      "Docker"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "120",
+    "name": "Drew Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=DJ",
+    "avatarFallbackText": "DJ",
+    "skillsOffered": [
+      "Excel Modeling",
+      "Budgeting"
+    ],
+    "skillsWanted": [
+      "R",
+      "Power BI"
+    ],
+    "rating": "4.1/5"
+  },
+  {
+    "id": "121",
+    "name": "Cameron Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=CL",
+    "avatarFallbackText": "CL",
+    "skillsOffered": [
+      "Figma",
+      "Illustrator"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Animation"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "122",
+    "name": "Morgan Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CCCC/FFFFFF?text=MW",
+    "avatarFallbackText": "MW",
+    "skillsOffered": [
+      "Theatre",
+      "Stage Presence"
+    ],
+    "skillsWanted": [
+      "Direction",
+      "Script Writing"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "123",
+    "name": "Casey Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=CD",
+    "avatarFallbackText": "CD",
+    "skillsOffered": [
+      "Cardiology",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Radiology",
+      "Medical Research"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "124",
+    "name": "Alex Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=AJ",
+    "avatarFallbackText": "AJ",
+    "skillsOffered": [
+      "Teaching",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "Instructional Design",
+      "EdTech Tools"
+    ],
+    "rating": "4.3/5"
+  },
+  {
+    "id": "125",
+    "name": "Morgan Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=ML",
+    "avatarFallbackText": "ML",
+    "skillsOffered": [
+      "Voice Acting",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Editing",
+      "Script Writing"
+    ],
+    "rating": "3.7/5"
+  },
+  {
+    "id": "126",
+    "name": "Alex Lee",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Budgeting",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "R",
+      "Python"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "127",
+    "name": "Alex Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=AW",
+    "avatarFallbackText": "AW",
+    "skillsOffered": [
+      "Taxation",
+      "Budgeting"
+    ],
+    "skillsWanted": [
+      "Python",
+      "Data Analysis"
+    ],
+    "rating": "3.5/5"
+  },
+  {
+    "id": "128",
+    "name": "Riley Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=RM",
+    "avatarFallbackText": "RM",
+    "skillsOffered": [
+      "Cardiology",
+      "Pediatrics"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Medical Research"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "129",
+    "name": "Taylor Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=TL",
+    "avatarFallbackText": "TL",
+    "skillsOffered": [
+      "DevOps",
+      "Python"
+    ],
+    "skillsWanted": [
+      "Docker",
+      "Figma"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "130",
+    "name": "Casey Johnson",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=CJ",
+    "avatarFallbackText": "CJ",
+    "skillsOffered": [
+      "Voice Acting",
+      "Improvisation"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "131",
+    "name": "Cameron Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/0099FF/FFFFFF?text=CS",
+    "avatarFallbackText": "CS",
+    "skillsOffered": [
+      "Figma",
+      "UI Design"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "Animation"
+    ],
+    "rating": "4.6/5"
+  },
+  {
+    "id": "132",
+    "name": "Jamie Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=JL",
+    "avatarFallbackText": "JL",
+    "skillsOffered": [
+      "Pediatrics",
+      "Diagnosis"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Medical AI"
+    ],
+    "rating": "3.5/5"
+  },
+  {
+    "id": "133",
+    "name": "Taylor Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF3333/FFFFFF?text=TL",
+    "avatarFallbackText": "TL",
+    "skillsOffered": [
+      "Surgery",
+      "Cardiology"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Medical Research"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "134",
+    "name": "Riley Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=RC",
+    "avatarFallbackText": "RC",
+    "skillsOffered": [
+      "Auditing",
+      "Accounting"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "Power BI"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "135",
+    "name": "Drew Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=DW",
+    "avatarFallbackText": "DW",
+    "skillsOffered": [
+      "Figma",
+      "UI Design"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "3D Modeling"
+    ],
+    "rating": "4.7/5"
+  },
+  {
+    "id": "136",
+    "name": "Morgan Martinez",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=MM",
+    "avatarFallbackText": "MM",
+    "skillsOffered": [
+      "Diagnosis",
+      "Surgery"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Radiology"
+    ],
+    "rating": "4.2/5"
+  },
+  {
+    "id": "137",
+    "name": "Alex Garcia",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=AG",
+    "avatarFallbackText": "AG",
+    "skillsOffered": [
+      "Budgeting",
+      "Excel Modeling"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "Python"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "138",
+    "name": "Jamie Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=JB",
+    "avatarFallbackText": "JB",
+    "skillsOffered": [
+      "Auditing",
+      "Excel Modeling"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "Power BI"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "139",
+    "name": "Avery Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Photoshop",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Animation",
+      "3D Modeling"
+    ],
+    "rating": "4.4/5"
+  },
+  {
+    "id": "140",
+    "name": "Casey Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=CB",
+    "avatarFallbackText": "CB",
+    "skillsOffered": [
+      "Excel Modeling",
+      "Taxation"
+    ],
+    "skillsWanted": [
+      "Python",
+      "Power BI"
+    ],
+    "rating": "3.9/5"
+  },
+  {
+    "id": "141",
+    "name": "Avery Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Figma",
+      "Illustrator"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Animation"
+    ],
+    "rating": "3.8/5"
+  },
+  {
+    "id": "142",
+    "name": "Alex Lopez",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=AL",
+    "avatarFallbackText": "AL",
+    "skillsOffered": [
+      "Cardiology",
+      "Surgery"
+    ],
+    "skillsWanted": [
+      "Medical AI",
+      "Radiology"
+    ],
+    "rating": "4.5/5"
+  },
+  {
+    "id": "143",
+    "name": "Riley Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF00CC/FFFFFF?text=RC",
+    "avatarFallbackText": "RC",
+    "skillsOffered": [
+      "Stage Presence",
+      "Voice Acting"
+    ],
+    "skillsWanted": [
+      "Script Writing",
+      "Direction"
+    ],
+    "rating": "4.0/5"
+  },
+  {
+    "id": "144",
+    "name": "Morgan Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=MD",
+    "avatarFallbackText": "MD",
+    "skillsOffered": [
+      "Auditing",
+      "Budgeting"
+    ],
+    "skillsWanted": [
+      "Data Analysis",
+      "R"
+    ],
+    "rating": "4.3/5"
+  },
+  {
+    "id": "145",
+    "name": "Avery Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF9933/FFFFFF?text=AD",
+    "avatarFallbackText": "AD",
+    "skillsOffered": [
+      "Graphic Design",
+      "Figma"
+    ],
+    "skillsWanted": [
+      "Web Design",
+      "3D Modeling"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "146",
+    "name": "Morgan Davis",
+    "profilePhotoUrl": "https://placehold.co/100x100/FF5733/FFFFFF?text=MD",
+    "avatarFallbackText": "MD",
+    "skillsOffered": [
+      "Teaching",
+      "Online Tutoring"
+    ],
+    "skillsWanted": [
+      "Instructional Design",
+      "EdTech Tools"
+    ],
+    "rating": "3.9/5"
+  },
+  {
+    "id": "147",
+    "name": "Alex Clark",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=AC",
+    "avatarFallbackText": "AC",
+    "skillsOffered": [
+      "DevOps",
+      "ML"
+    ],
+    "skillsWanted": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "rating": "3.6/5"
+  },
+  {
+    "id": "148",
+    "name": "Taylor Williams",
+    "profilePhotoUrl": "https://placehold.co/100x100/00CC99/FFFFFF?text=TW",
+    "avatarFallbackText": "TW",
+    "skillsOffered": [
+      "Pediatrics",
+      "Cardiology"
+    ],
+    "skillsWanted": [
+      "Medical Research",
+      "Medical AI"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "149",
+    "name": "Alex Smith",
+    "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=AS",
+    "avatarFallbackText": "AS",
+    "skillsOffered": [
+      "Node.js",
+      "DevOps"
+    ],
+    "skillsWanted": [
+      "System Design",
+      "Docker"
+    ],
+    "rating": "4.8/5"
+  },
+  {
+    "id": "150",
+    "name": "Morgan Brown",
+    "profilePhotoUrl": "https://placehold.co/100x100/6600FF/FFFFFF?text=MB",
+    "avatarFallbackText": "MB",
+    "skillsOffered": [
+      "Figma",
+      "Photoshop"
+    ],
+    "skillsWanted": [
+      "3D Modeling",
+      "Web Design"
+    ],
+    "rating": "3.6/5"
+  }
+]
