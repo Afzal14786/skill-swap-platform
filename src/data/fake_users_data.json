@@ -1,5 +1,30 @@
 [
   {
+    "id": "0",
+    "name": "Md Afzal Ansari",
+    "profilePhotoUrl": "/media/images/avatar.jpeg",
+    "avatarFallbackText": "MD",
+    "skillsOffered": [
+      "JavaScript",
+      "C++",
+      "DSA",
+      "MERN",
+      "mongoDB",
+      "MySQL",
+      "ReactJS",
+      "NodeJS",
+      "Docker"
+    ],
+    "skillsWanted": [
+      "Video Creation",
+      "Kubernetes",
+      "Algorithm Design",
+      "System Design",
+      "Editing"
+    ],
+    "rating": "3.7/5"
+  },
+  {
     "id": "1",
     "name": "Taylor Johnson",
     "profilePhotoUrl": "https://placehold.co/100x100/33FF57/FFFFFF?text=TJ",

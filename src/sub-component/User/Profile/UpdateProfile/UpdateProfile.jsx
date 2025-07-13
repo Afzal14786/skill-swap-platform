@@ -4,15 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Switch } from "@/components/ui/switch";
 import { Input } from "@/components/ui/input";
 import { X, Pencil, Trash2 } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const UpdateProfile = ({ profile }) => {
   const navigate = useNavigate();
   const [name, setName] = useState(profile.name);
   const [location, setLocation] = useState(profile.location || "");
-  const [skillsOffered, setSkillsOffered] = useState(
-    profile.skillsOffered || []
-  );
+  const [skillsOffered, setSkillsOffered] = useState(profile.skillsOffered || []);
   const [skillsWanted, setSkillsWanted] = useState(profile.skillsWanted || []);
   const [availability, setAvailability] = useState(profile.availability || "");
   const [isPublic, setIsPublic] = useState(profile.isPublic || false);
@@ -60,21 +58,17 @@ const UpdateProfile = ({ profile }) => {
     setAvatarUrl("");
   };
 
-  const handleSave = () => {
-    // backend logic for saving the updated data
-    navigate("/");
-  };
-
-  const handleDiscard = ()=> {
-    navigate('/profile');
-  }
-
   return (
-    <div className="relative">
-      {/* Avatar at top-right with hover icons */}
-      <div className="absolute right-10 top-6 group">
-        <div className="relative">
-          <Avatar className="w-32 h-32">
+    <div className="relative px-4 sm:px-6 lg:px-8 py-8">
+      {/* Header Section */}
+      <div className="flex justify-between items-start mb-8 gap-4">
+        <div className="flex flex-col justify-start pt-1">
+          <h2 className="text-2xl font-bold mb-1">Update Profile</h2>
+          <p className="text-lg font-medium text-gray-800">{name}</p>
+        </div>
+
+        <div className="relative group w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32">
+          <Avatar className="w-full h-full">
             <AvatarImage src={avatarUrl} alt={name} className="object-cover" />
             <AvatarFallback>{profile.avatarFallbackText}</AvatarFallback>
           </Avatar>
@@ -104,31 +98,16 @@ const UpdateProfile = ({ profile }) => {
         </div>
       </div>
 
-      {/* Form */}
-      <div className="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-xl">
-        <h2 className="text-2xl font-bold mb-6">Update Profile</h2>
-
+      {/* Profile Form */}
+      <div className="max-w-4xl mx-auto bg-white p-6 rounded-xl shadow-md">
         <div className="flex flex-col space-y-6">
           <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Location</label>
             <Input
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              placeholder="Name"
+              value={location}
+              onChange={(e) => setLocation(e.target.value)}
+              placeholder="Location"
             />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Location
-            </label>
-            <div className="border-b border-gray-300 py-1">
-              <input
-                value={location}
-                onChange={(e) => setLocation(e.target.value)}
-                className="w-full bg-transparent outline-none"
-                placeholder="Location"
-              />
-            </div>
           </div>
 
           <div>
@@ -148,7 +127,7 @@ const UpdateProfile = ({ profile }) => {
                 </span>
               ))}
             </div>
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:flex-row gap-2">
               <Input
                 placeholder="Add Skill"
                 value={newSkillOffered}
@@ -175,7 +154,7 @@ const UpdateProfile = ({ profile }) => {
                 </span>
               ))}
             </div>
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:flex-row gap-2">
               <Input
                 placeholder="Add Skill"
                 value={newSkillWanted}
@@ -186,31 +165,22 @@ const UpdateProfile = ({ profile }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Availability
-            </label>
-            <div className="border-b border-gray-300 py-1">
-              <input
-                value={availability}
-                onChange={(e) => setAvailability(e.target.value)}
-                className="w-full bg-transparent outline-none"
-                placeholder="Availability"
-              />
-            </div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Availability</label>
+            <Input
+              value={availability}
+              onChange={(e) => setAvailability(e.target.value)}
+              placeholder="Availability"
+            />
           </div>
 
           <div className="flex items-center gap-3">
             <span className="font-medium">Profile : Public</span>
             <Switch checked={isPublic} onCheckedChange={setIsPublic} />
           </div>
-          <div className="w-50% flex justify-between">
-            <Button className="bg-green-800 mt-4" onClick={handleSave}>
-              Save Profile
-            </Button>
 
-            <Button className="bg-red-800 mt-4" onClick={handleDiscard}>
-              Discard
-            </Button>
+          <div className="flex flex-col sm:flex-row justify-between gap-4 mt-6">
+            <Link to={'/profile'}><Button className="bg-green-800 w-full sm:w-auto">Save Profile</Button></Link>
+            <Link to={'/profile'}><Button className="bg-red-800 w-full sm:w-auto">Discard</Button></Link>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ function App() {
           <Route element= {<ProfilePage/>} path='/profile'/>
           <Route element= {<UpdateProfilePage/>} path='/update-profile'/>
           <Route element= {<SkillSwap/>} path='/user/:id'/>
-          <Route element= {<SkillExchange/>} path='/skill-exchange'/>
+          <Route element= {<SkillExchange/>} path='/skill-exchange/:id'/>
         </Routes>
         {/* <Footer/> */}
       </Router>

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const SwapRequest = ({ profile }) => {
@@ -12,22 +12,17 @@ const SwapRequest = ({ profile }) => {
     avatarFallbackText,
   } = profile;
 
-  const navigate = useNavigate();
-
-  const handleSkillExchange = () => {
-    navigate("/skill-exchange");
-  };
-
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Swap Button */}
       <div className="mb-8 flex justify-center sm:justify-start">
-        <Button
-          className="bg-blue-500 text-black font-semibold text-xl px-6 py-4 hover:text-white"
-          onClick={handleSkillExchange}
-        >
-          Request Swap
-        </Button>
+        <Link to={`/skill-exchange/${profile.id}`}>
+          <Button
+            className="bg-blue-500 text-black font-semibold text-xl px-6 py-4 hover:text-white"
+          >
+            Request Swap
+          </Button>
+        </Link>
       </div>
 
       {/* Profile Info */}
