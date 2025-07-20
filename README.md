@@ -22,4 +22,9 @@ request others in return
 **● Ban users who violate platform policies.**  
 **● Monitor pending, accepted, or cancelled swaps.**  
 **● Send platform-wide messages (e.g., feature updates, downtime alerts).**  
-**● Download reports of user activity, feedback logs, and swap stats.**
+**● Download reports of user activity, feedback logs, and swap stats.**  
+
+****  
+
+### How to setup locally  
+For local setup instructions, refer to [Local Setup Guide](./docs/LocalSetup.md).
